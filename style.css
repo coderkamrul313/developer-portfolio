@@ -1,0 +1,108 @@
+*{
+    font-family: 'Lato', sans-serif;
+    margin:0;
+
+  
+   
+}
+.top-section{ 
+ display:flex;
+ background: url(src/top-banner.png);
+ background-repeat: no-repeat;
+}
+.half-div{
+    width:50%;
+    margin:5%;
+}
+
+.half-div > img{
+    width:100%;
+  
+}
+
+.half-div > h1{
+    font-size: 50px;
+    padding: 10px 0px;
+    
+}
+.half-div > h3{
+    padding:10px 0px;
+}
+#name{
+    color:darkgoldenrod;
+}
+.half-div > p{
+    color:#777;
+    line-height: 27px;
+    padding-bottom: 20px;
+}
+
+.button-1{
+    text-decoration: none;
+    padding: 10px 40px;
+   background-image: linear-gradient(red,orange,yellow);
+   border-radius: 10px;
+
+}
+
+
+/*-------------- dream section---------------------------*/
+
+.dream-section{
+    display:flex;
+    background: url(src/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat ;
+}
+
+.expereince{
+
+    background: url(src/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+.ex-div{
+    display:flex;
+}
+.expereince > h1{
+    font-size: 40px;
+}
+.half-div-ex{
+    width:50%;
+   box-shadow: 10px 10px 15px #999,10px 10px 15px #999;
+   margin:5%;
+   padding:20px;
+   height:330px;
+ 
+}
+
+.half-div-ex > h1{
+    font-size: 40px;
+    padding:20px 0px;
+}
+
+.half-div-ex > h3{
+    color:orangered;
+    padding:25px 0px;
+}
+
+.half-div-ex > p{
+    color:#333;
+    line-height: 26px;
+    
+}
+
+.ex-1{
+  border-left:8px solid orangered;
+}
+
+.ex-2{
+    border-left:7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    color:#222;
+    padding:20px 0px;
+}
